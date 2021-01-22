@@ -1,8 +1,24 @@
 
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
+import 'test02.dart';
+import 'test01.dart';
 
-void main() => runApp(new MyApp02());
+// void main() => runApp(new MaterialApp(
+//     title: 'Shopping App',
+//     home: new ShoppingList(
+//       products: <Product>[
+//         new Product(name: 'Eggs'),
+//         new Product(name: 'Flour'),
+//         new Product(name: 'Chocolate chips'),
+//       ],
+//     ),
+//   ));
+
+void main() => runApp(new MaterialApp(
+    title: 'My app',
+    home: new MyScaffold(),
+  ));
 
 class MyApp02 extends StatelessWidget {
   @override
